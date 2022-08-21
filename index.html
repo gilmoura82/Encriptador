@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Codificador</title>
+</head>
+<body>
+    
+    <header>
+        <img src="images/alura_a_circulo.png" alt="logo da Alura"/>
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="7" placeholder="Digite seu texto:"></textarea>
+            
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+                <button class="limpar" onclick="limpar()">
+                    Limpar
+                </button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="20" rows="12">
+            </textarea>
+            <div id="botao">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="rodape">
+        <h4>Desenvolvido Por Gil Moura - Challenge Alura + ONE</h4>
+        <a href="https://github.com/gilmoura82" target="_blank"><img src="images/github.png" alt="logo do github e link para acessar meu repositório" style=font-size:15px></a>
+        <a href="https://www.linkedin.com/in/gilmoura/" target="_blank" title="Linkedin" ><img src="images/linkedin.png" alt="logo e link para acessar meu perfil do Linkedin" style=font-size:15px></a>
+    </footer>
+    
+    
+    
+    
+</body>
+</html>
